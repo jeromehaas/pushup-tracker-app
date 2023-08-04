@@ -1,5 +1,7 @@
 .goal {
+  position: relative;
   background-color: $white;
   padding: 16px 32px;
   color: $grey; text-align: center;
+  z-index: 5;
 }

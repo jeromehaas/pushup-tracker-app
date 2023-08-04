@@ -3,6 +3,11 @@
     "paths": {
       "components/*": ["./components/*"],
       "styles/*": ["./styles/*"],
+      "contexts/*": ["./contexts/*"],
+      "queries/*": ["./queries/*"],
+      "configs/*": ["./configs/*"],
+      "models/*": ["./models/*"],
+      "services/*": ["./services/*"],
     }
   }
 }

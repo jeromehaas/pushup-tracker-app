@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^1.4.0",
+    "mysql2": "^3.5.2",
     "next": "13.4.12",
+    "pg-hstore": "^2.3.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.64.1"
+    "react-query": "^3.39.3",
+    "request": "^2.79.0",
+    "sass": "^1.64.1",
+    "sequelize": "^6.32.1",
+    "socket.io": "^4.7.1",
+    "supports-color": "^8.1.1"
   }
 }

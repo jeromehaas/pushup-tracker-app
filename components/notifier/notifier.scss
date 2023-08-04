@@ -1,0 +1,57 @@
+.notifier {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 48px;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: scroll;
+
+  &__item, .item {
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+      
+    &__avatar {
+      color: $grey;
+      background-color: $white;
+      border-radius: 50%;
+      font-size: 6px;
+      width: 16px;
+      height: 16px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-right: 8px;
+    }
+
+    &__value {
+      margin-right: 8px;
+      align-self: flex-end;
+    }
+
+    &__time {
+      font-size: 8px;
+      color: $white;
+      align-self: flex-end;
+      margin-bottom: 2px;
+    }
+
+    &--red {
+      background-color: $red;
+    }
+
+    &--blue {
+      background-color: $blue;
+    }
+
+    &--yellow {
+      background-color: $yellow;
+    }
+
+  }
+}
