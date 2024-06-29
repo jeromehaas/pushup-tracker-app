@@ -1,7 +1,9 @@
 'use client';
 
+// IMPORTS
 import { useState, useEffect, useRef } from 'react';
 
+// ADDER
 const Adder = () => {
 
   // SETUP STATE
@@ -25,10 +27,6 @@ const Adder = () => {
     }, 3000);
 
   };
-
-  useEffect(() => {
-    
-  }, []);
 
   // RENDER
   return (

@@ -1,14 +1,19 @@
+// IMPORTS
 import Pushups from 'models/pushups.js';
 
+// GET PUSHUPS
 const getPushups = async () => {
 
-  // const pushups = ['one', 'two', 'three'];
+
+	// GET ALL PUSHUPS
   const pushups = await Pushups.findAll();
-  console.log(pushups);
+
+	// RETURN PUSHUPS
   return pushups;
 
 };
 
+// EXPORTS
 export {
   getPushups,
 };

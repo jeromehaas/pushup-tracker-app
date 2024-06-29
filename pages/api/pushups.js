@@ -7,20 +7,20 @@ const handler = async (req, res) => {
   // TRY-CATCH BLOCK
   try {
 
+		// GET AND SEND PUSHUPS
     const pushups = await getPushups();
     res.status(200).send(pushups);
 
     
+	// HANDLE ERRORS
   } catch (error) {
-    console.log(error.message);
-    res.status(500).send();
-  } 
-  // const pushups = await Pushups.findAll();
-  // console.log(pushups);
 
-  // return NextResponse.json( { pushups: ['one', 'two', 'three' ] });
+		// SEND ERROR RESPONSE
+    res.status(500).send();
+
+  };
 
 };
 
-
+// EXPORTS
 export default handler;

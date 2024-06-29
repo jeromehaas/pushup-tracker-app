@@ -3,7 +3,7 @@ const Page = () => {
 
   // RENDER
   return (
-    <p>login</p>
+    null
   );
 
 };

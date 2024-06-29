@@ -1,5 +1,7 @@
+	// NOTIFIER
   const Notifier = () => {
 
+		// RENDER
     return (
       <div className="notifier">
         <div className="notifier__item item item--red">
@@ -27,4 +29,5 @@
 
   };
 
+// EXPORTS
 export default Notifier;

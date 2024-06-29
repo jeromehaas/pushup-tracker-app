@@ -1,8 +1,8 @@
+// IMPORTS
 const { Sequelize } = require('sequelize');
 const sequelize = require('configs/db.js');
 
-// const Pushups = [1, 2, 3, 4];
-
+// DEFINE PUSHUPS
 const Pushups = sequelize.define('pushups', {
 	id: {
 		field: 'id',
@@ -19,4 +19,5 @@ const Pushups = sequelize.define('pushups', {
 	},
 });
 
+// EXPORTS
 module.exports = Pushups;

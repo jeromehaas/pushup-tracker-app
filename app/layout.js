@@ -5,12 +5,6 @@ import 'styles/main.scss';
 import { AppProvider } from 'contexts/app-context.jsx';
 import { QueryClient, QueryClientProvider } from 'react-query';
 
-// METADATE
-// const metadata = {
-//   title: 'Pushup Tracker',
-//   description: 'A challenge between Jérôme, Johannes and Elias',
-// };
-
 // COMPONENT
 const Layout = ({ children }) => {
 
@@ -31,6 +25,5 @@ const Layout = ({ children }) => {
 };
 
 // EXPORTS
-// export { metadata };
 export default Layout;
 
